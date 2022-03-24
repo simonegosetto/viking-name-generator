@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3",
+    "node-schedule": "^2.1.0",
+    "request": "^2.88.2",
+    "say": "^0.16.0"
+  }
+}
