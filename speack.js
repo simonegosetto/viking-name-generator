@@ -20,6 +20,7 @@ schedule.scheduleJob('*/1 * * * *', async () => {
         /*const randomNumber = Math.floor(Math.random() * 12);
         const name = names[randomNumber];
         console.log('###',name,'###');*/
+        console.log('###',names.join(', '),'###');
         say.speak(names.join(', '));
     })
 
