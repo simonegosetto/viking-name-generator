@@ -17,11 +17,11 @@ schedule.scheduleJob('*/1 * * * *', async () => {
         } else {
             console.log('Error loading names, please try again');
         }
-        /*const randomNumber = Math.floor(Math.random() * 12);
+        const randomNumber = Math.floor(Math.random() * 12);
         const name = names[randomNumber];
-        console.log('###',name,'###');*/
-        console.log('###',names.join(', '),'###');
-        say.speak(names.join(', '));
+        console.log('###',name,'###');
+        // console.log('###',names.join(', '),'###');
+        say.speak(name);
     })
 
 });
